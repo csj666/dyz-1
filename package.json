@@ -1,0 +1,23 @@
+{
+  "name": "dyz-1",
+  "version": "1.0.0",
+  "description": "dyz-1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csj666/dyz-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csj666/dyz-1/issues"
+  },
+  "homepage": "https://github.com/csj666/dyz-1#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
