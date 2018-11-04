@@ -1,3 +1,53 @@
 html,
 body {
-  background: red; }
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  height: 45px;
+  flex-shrink: 0;
+  background: pink; }
+
+.section {
+  width: 100%;
+  flex: 1;
+  overflow: hidden; }
+  .section .list {
+    width: 100%;
+    height: auto;
+    position: relative; }
+    .section .list .pullend {
+      width: 100%;
+      height: 45px;
+      background: red;
+      text-align: center;
+      position: absolute;
+      top: -50px;
+      left: 0; }
+    .section .list .pullup {
+      width: 100%;
+      height: 45px;
+      background: red;
+      text-align: center;
+      position: absolute;
+      bottom: -50px;
+      left: 0; }
+    .section .list ul li {
+      width: 100%;
+      height: 45px;
+      text-align: center;
+      border-bottom: 1px solid #ccc; }

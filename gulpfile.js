@@ -15,11 +15,11 @@ gulp.task("server", function() {
 gulp.task("devScss", function() {
     return gulp.src("./src/scss/*.scss")
         .pipe(sass())
-        .pipe(gulp.dest("./src/css"))
+        .pipe(gulp.dest("./src/css"));
 });
 //监听
-gulp.task("wacth", function() {
+gulp.task("watch", function() {
     return gulp.watch("./src/scss/*/scss", gulp.series("devScss"));
 });
 //串执行
-gulp.task("dev", gulp.series("devScss", "server", "wacth"));
+gulp.task("dev", gulp.series("devScss", "server", "watch"));
